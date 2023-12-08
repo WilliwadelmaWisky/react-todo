@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', sans-serif;
+    background-color: #EEEEEE;
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+h3, p {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.h-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.v-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.w80 {
+    margin: auto;
+    width: 80%;
+}
+
+button {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.mt1 {
+    margin-top: 1em;
+}
+.px2 {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.py1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.gap1 {
+    gap: 1em;
+}
+
+.s-32x32 {
+    width: 32px;
+    height: 32px;
+}
+.w-30 {
+    width: 30px;
+}
+.w-150 {
+    width: 150px;
+}
+
+.alert {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1.5em 1em;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1.5em 1em;
+}

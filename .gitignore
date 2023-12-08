@@ -1,0 +1,8 @@
+node_modules/
+dist/
+
+.eslintrc.cjs
+index.html
+package.json
+package-lock.json
+vite.config.js
